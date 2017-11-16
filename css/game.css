@@ -1,0 +1,26 @@
+.background    { background: url('https://c1.staticflickr.com/5/4098/4853578699_bb9b159a8b_b.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(0, 216, 97); }
+.wall          { background: rgb(0, 78, 181);   }
+
+.actor  { position: absolute;  }
+.coin   { background:  rgb(255, 253, 181); }
+.player { background: rgb(255, 127, 244);}
+.penny  { background: rgb(255, 184, 53);}
+.treasure { background: rgb(181, 143, 9);}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px blue, 4px -7px 8px blue;
+}
